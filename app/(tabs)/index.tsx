@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
-import BG from './assets/images/landing.jpg';
+import BG from '../../assets/images/landing.jpg';
 
-export default function App() {
+export default function Home() {
   return (
     <View style={{ flex: 1 }}>
       <ImageBackground source={BG} style={styles.container}>
